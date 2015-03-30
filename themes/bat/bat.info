@@ -1,0 +1,33 @@
+name = bat
+description = bat(Build A Theme) is a custom template from scratch. It does not not uses any base theme
+core = 7.x
+base theme = bartik
+;version = 1.0 (discouraged)
+;screenshot = screenshot.png
+
+stylesheets[all][] = css/base/normalize.css
+stylesheets[all][] = css/base/element.css
+
+stylesheets[all][] = css/components/header.css
+stylesheets[all][] = css/components/navigation.css
+stylesheets[all][] = css/components/callout.css
+stylesheets[all][] = css/components/footer.css
+
+stylesheets[all][] = css/layout/layout.css
+
+;Set the conditional stylesheets if the screen resolution is for mobile.
+;stylesheets[all and (max-width: 480px)][] = css/style-480.css
+
+; Set the conditional stylesheets that are processed by IE.
+;stylesheets-conditional[lt IE 7][all][] = ie6-and-below.css
+;stylesheets-conditional[IE 9][all][] = ie9.css
+
+;scripts[] = myscript.js
+
+ 
+regions[header] = Header
+regions[banner] = Banner
+regions[sidebar_left] = Sidebar Left
+regions[content] = Content
+regions[callout] = Callout
+regions[footer] = Footer

@@ -1,0 +1,39 @@
+/* ==========================================================================
+CALLOUT CSS
+========================================================================== */
+.callout .block-block{
+    box-sizing: border-box;
+    float: left;
+    padding-right: 10px;
+    width: 33.33%;
+	margin-bottom:20px;
+}
+
+.callout-wrap {
+    background:#fff;
+    border: 1px solid #dcdcdc;
+    -webkit-box-shadow: 0 5px 12px rgba(0, 0, 0, 0.06);
+	-moz-box-shadow: 0 5px 12px rgba(0, 0, 0, 0.06);
+	box-shadow: 0 5px 12px rgba(0, 0, 0, 0.06);
+    padding:10px 40px;
+	text-align:center;
+	min-height:320px;
+}
+.callout h2{
+	color:#666;
+	text-transform:uppercase;
+}
+.callout-btn {
+    background-image: linear-gradient(to bottom, #ffffff 0%, #f4f4f4 100%);
+    background-repeat: repeat-x;
+    border: 1px solid #eee;
+    box-shadow: none;
+    color: #666;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+}
+.callout-btn:hover{
+    background-image: linear-gradient(to bottom, #f4f4f4 0%, #ffffff 100%);
+}

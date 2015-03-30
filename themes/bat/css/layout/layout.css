@@ -1,0 +1,62 @@
+/* ==========================================================================
+LAYOUT CSS
+========================================================================== */
+ #page {
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+.page-width {
+    display: block;
+    margin: 0 auto;
+    max-width: 960px;
+    width: auto;
+}
+.page_wrap {
+    background-color: #fff;
+    font-size:13px;
+    border-top:3px solid #00a6ff;
+}
+.title {
+    display: none;
+}
+.main {
+    margin:20px auto;
+}
+.banner {
+    text-align:center;
+    width:100%;
+    background:#eee;
+}
+.page_wrap p {
+    margin:0 0 5px;
+    line-height:18px;
+    font-size:13px;
+}
+.page_wrap h1 {
+    font-size:24px;
+    color:#008fe8;
+    text-transform:uppercase;
+}
+.sidebar_wrap {
+    box-sizing: border-box;
+    float: left;
+    padding: 0 20px 0 0;
+    width: 30%;
+}
+.region-sidebar-left ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.region-sidebar-left li {
+    border-bottom: 1px solid #d1d1d1;
+    list-style: outside none none;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+.content_wrap {
+    float: left;
+    width: 70%;
+}

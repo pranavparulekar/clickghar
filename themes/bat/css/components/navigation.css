@@ -1,0 +1,40 @@
+/* ==========================================================================
+NAVIGATION CSS
+========================================================================== */
+.page_wrap .block-menu {
+    float: left;
+    width: 70%;
+}
+.page_wrap .block-menu h2{
+	display: none;
+}
+.page_wrap .block-menu ul {
+    clear: both;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+.page_wrap .block-menu ul li {
+    float: left;
+    list-style: outside none none;
+    margin: 0 10px;	
+    font-size: 14px;	
+    text-transform: uppercase;	
+    padding: 0;
+}
+.page_wrap .block-menu ul li.last{
+	margin-right: 0;
+}
+.page_wrap .block-menu ul li a {
+    -webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+	color:#000;
+}
+.page_wrap  .block-menu li a:hover, .page_wrap .block-menu li a.active {
+    background: #008fe8;
+    color: #fff;
+}
